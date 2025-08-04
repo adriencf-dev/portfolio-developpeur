@@ -1,0 +1,85 @@
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fdf6f0;
+    color: #333;
+    font-family: 'Karla', sans-serif;
+    padding: 40px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #9b9ede;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    text-align: center;
+  }
+
+  h2 {
+    color: #9b9ede;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+
+  .slogan {
+    font-size: 1.1em;
+    color: #888;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+  
+  section {
+    background-color: #fff8fc;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+
+  section:hover {
+    color: #8ca6db;
+    background-color: #f3f0fa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+  }
+  
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #9b9ede;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #8ca6db;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
