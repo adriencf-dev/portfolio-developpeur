@@ -82,4 +82,19 @@ body {
     font-size: 0.9em;
     color: #aaa;
   }
+
+  a {
+    color: #9b9ede; 
+    text-decoration: none; 
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #9b9ede;
+    text-decoration: underline wavy; 
+    background-color: #fdf2f7;
+    outline: none;
+  }
   
